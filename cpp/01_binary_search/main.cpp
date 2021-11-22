@@ -7,6 +7,8 @@ int main() {
     int itemList[] = {1, 3, 5, 7, 9};
     int ret1 = binarySearch(itemList, 3);
     int ret2 = binarySearch(itemList, -1);
+    assert(ret1==1);
+    assert(ret2==-1);
     printf("test 1 %d\n", ret1);
     printf("test 2 %d\n", ret2);
     return 0;
