@@ -18,7 +18,7 @@ def binary_search(list, item):
 
 my_list = [1, 3, 5, 7, 9]
 
-assert binay_search(my_list, 3) == 1
-assert binay_search(my_list, -1) == None
+assert binary_search(my_list, 3) == 1
+assert binary_search(my_list, -1) == None
 print(binary_search(my_list, 3))
 print(binary_search(my_list, -1))
