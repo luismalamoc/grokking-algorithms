@@ -1,4 +1,4 @@
-def binay_search(list, item):
+def binary_search(list, item):
     low = 0
     high = len(list) -1
 
@@ -20,5 +20,5 @@ my_list = [1, 3, 5, 7, 9]
 
 assert binay_search(my_list, 3) == 1
 assert binay_search(my_list, -1) == None
-print(binay_search(my_list, 3))
-print(binay_search(my_list, -1))
+print(binary_search(my_list, 3))
+print(binary_search(my_list, -1))
